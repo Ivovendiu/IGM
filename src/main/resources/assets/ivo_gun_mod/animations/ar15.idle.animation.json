@@ -1,0 +1,29 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"idle": {
+			"loop": true,
+			"bones": {
+				"left": {
+					"rotation": {
+						"vector": [-40.25057, 14.98328, 16.98216]
+					},
+					"position": {
+						"vector": [3, -5, 2]
+					}
+				},
+				"right": {
+					"rotation": {
+						"vector": [-93.7576, -14.6914, -9.61518]
+					},
+					"position": {
+						"vector": [-4, -12, -21]
+					},
+					"scale": {
+						"vector": [1, 1, 1]
+					}
+				}
+			}
+		}
+	}
+}

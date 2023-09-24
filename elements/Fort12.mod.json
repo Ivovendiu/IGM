@@ -1,0 +1,40 @@
+{
+  "_fv": 43,
+  "_type": "rangeditem",
+  "definition": {
+    "renderType": 1,
+    "texture": "ar15",
+    "customModelName": "fort12:default",
+    "name": "Fort 12",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Igm"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": "CUSTOM:B9mm"
+    },
+    "shootConstantly": false,
+    "usageCount": 0,
+    "actionSound": {
+      "value": "CUSTOM:fort_shoot"
+    },
+    "hasGlow": false,
+    "animation": "none",
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "onRangedItemUsed": {
+      "name": "Fort12AfterShoot"
+    },
+    "bulletPower": 1.2999999999999998,
+    "bulletDamage": 0.5,
+    "bulletKnockback": 1,
+    "bulletParticles": false,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": "Blocks.AIR"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": ""
+  }
+}

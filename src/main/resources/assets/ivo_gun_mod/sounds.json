@@ -1,0 +1,50 @@
+{
+  "ar15_shoot": {
+    "sounds": [
+      {
+        "name": "ivo_gun_mod:ar15_shoot",
+        "stream": false
+      }
+    ]
+  },
+  "ak74": {
+    "sounds": [
+      {
+        "name": "ivo_gun_mod:ak74",
+        "stream": false
+      }
+    ]
+  },
+  "fort_shoot": {
+    "sounds": [
+      {
+        "name": "ivo_gun_mod:fort12",
+        "stream": false
+      }
+    ]
+  },
+  "svd": {
+    "sounds": [
+      {
+        "name": "ivo_gun_mod:svd",
+        "stream": false
+      }
+    ]
+  },
+  "saiga12": {
+    "sounds": [
+      {
+        "name": "ivo_gun_mod:saiga12",
+        "stream": false
+      }
+    ]
+  },
+  "ubg_40_shoot": {
+    "sounds": [
+      {
+        "name": "ivo_gun_mod:40mm",
+        "stream": false
+      }
+    ]
+  }
+}

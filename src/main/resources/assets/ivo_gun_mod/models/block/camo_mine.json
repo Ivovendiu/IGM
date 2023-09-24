@@ -1,0 +1,11 @@
+{
+  "parent": "ivo_gun_mod:custom/mine_camo",
+  "textures": {
+    "all": "ivo_gun_mod:block/grass",
+    "particle": "ivo_gun_mod:block/grass",
+    "1": "ivo_gun_mod:block/mine_texture",
+    "2": "ivo_gun_mod:block/grass",
+    "missing": "ivo_gun_mod:block/"
+  },
+  "render_type": "cutout"
+}

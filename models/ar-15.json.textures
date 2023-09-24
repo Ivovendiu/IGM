@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "ar-15_texture"
+      },
+      "name": "default"
+    }
+  }
+}

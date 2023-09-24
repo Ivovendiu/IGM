@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "mine_texture",
+        "2": "grass",
+        "missing": ""
+      },
+      "name": "default"
+    }
+  }
+}

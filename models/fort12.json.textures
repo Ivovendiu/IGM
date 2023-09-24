@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "fort12_texture"
+      },
+      "name": "default"
+    }
+  }
+}

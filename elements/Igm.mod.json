@@ -1,0 +1,11 @@
+{
+  "_fv": 43,
+  "_type": "tab",
+  "definition": {
+    "name": "IGM",
+    "icon": {
+      "value": "CUSTOM:Ar15"
+    },
+    "showSearch": false
+  }
+}

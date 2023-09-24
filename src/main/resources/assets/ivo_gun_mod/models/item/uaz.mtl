@@ -1,0 +1,13 @@
+newmtl m_167b93dd-574b-77dd-a7b9-f5cb2826d060
+Ka 0.0 0.0 0.0
+Kd 0.0 0.0 0.0
+Ks 0.0 0.0 0.0
+map_Kd ivo_gun_mod:block/uaz_texture
+Ns 100.0
+d 1.0
+newmtl none
+Ka 0.0 0.0 0.0
+Kd 0.0 0.0 0.0
+Ks 0.0 0.0 0.0
+Ns 100.0
+d 1.0

@@ -1,0 +1,9 @@
+{
+  "parent": "ivo_gun_mod:custom/block",
+  "textures": {
+    "all": "ivo_gun_mod:block/weponary_texture",
+    "particle": "ivo_gun_mod:block/weponary_texture",
+    "0": "ivo_gun_mod:block/weponary_texture"
+  },
+  "render_type": "solid"
+}

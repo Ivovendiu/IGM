@@ -1,0 +1,40 @@
+{
+  "_fv": 43,
+  "_type": "rangeditem",
+  "definition": {
+    "renderType": 1,
+    "texture": "ar15",
+    "customModelName": "svd:default",
+    "name": "Svd",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Igm"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": "CUSTOM:B762"
+    },
+    "shootConstantly": false,
+    "usageCount": 0,
+    "actionSound": {
+      "value": "CUSTOM:svd"
+    },
+    "hasGlow": false,
+    "animation": "none",
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "onRangedItemUsed": {
+      "name": "SvdAfterShoot"
+    },
+    "bulletPower": 5.5,
+    "bulletDamage": 4.0,
+    "bulletKnockback": 1,
+    "bulletParticles": false,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": "Blocks.AIR"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": ""
+  }
+}

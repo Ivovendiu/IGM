@@ -1,0 +1,7 @@
+{
+  "parent": "ivo_gun_mod:custom/bullet",
+  "textures": {
+    "0": "ivo_gun_mod:block/bullet_texture",
+    "particle": "ivo_gun_mod:item/buller"
+  }
+}

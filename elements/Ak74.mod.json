@@ -1,0 +1,40 @@
+{
+  "_fv": 43,
+  "_type": "rangeditem",
+  "definition": {
+    "renderType": 1,
+    "texture": "ar15",
+    "customModelName": "ak_74:default",
+    "name": "AK74",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Igm"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": "CUSTOM:B545"
+    },
+    "shootConstantly": true,
+    "usageCount": 0,
+    "actionSound": {
+      "value": "CUSTOM:ak74"
+    },
+    "hasGlow": false,
+    "animation": "none",
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "onRangedItemUsed": {
+      "name": "Ak74AfterShoot"
+    },
+    "bulletPower": 2.5,
+    "bulletDamage": 1.0,
+    "bulletKnockback": 1,
+    "bulletParticles": false,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": "Blocks.AIR"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": ""
+  }
+}

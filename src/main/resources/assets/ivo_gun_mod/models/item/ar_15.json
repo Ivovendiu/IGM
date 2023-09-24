@@ -1,0 +1,7 @@
+{
+  "parent": "ivo_gun_mod:custom/ar-15",
+  "textures": {
+    "0": "ivo_gun_mod:block/ar-15_texture",
+    "particle": "ivo_gun_mod:item/ar15"
+  }
+}

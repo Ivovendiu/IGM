@@ -1,0 +1,7 @@
+{
+  "parent": "ivo_gun_mod:custom/fort12",
+  "textures": {
+    "0": "ivo_gun_mod:block/fort12_texture",
+    "particle": "ivo_gun_mod:item/ar15"
+  }
+}

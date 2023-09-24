@@ -1,0 +1,744 @@
+{
+  "mod_elements": [
+    {
+      "name": "Ar15",
+      "type": "rangeditem",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ar_15",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ivo_gun_mod/models/item/ar_15.json",
+          "src/main/java/icg/entity/Ar15Entity.java",
+          "src/main/java/icg/item/Ar15Item.java"
+        ]
+      }
+    },
+    {
+      "name": "Igm",
+      "type": "tab",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "igm",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Ar15_AfterShoor",
+      "type": "procedure",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ar_15_after_shoor",
+      "metadata": {
+        "files": [
+          "src/main/java/icg/procedures/Ar15_AfterShoorProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "N556",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "n_556",
+      "metadata": {
+        "files": [
+          "src/main/java/icg/item/N556Item.java",
+          "src/main/resources/assets/ivo_gun_mod/models/item/n_556.json"
+        ]
+      }
+    },
+    {
+      "name": "Ak74",
+      "type": "rangeditem",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ak_74",
+      "metadata": {
+        "files": [
+          "src/main/java/icg/item/Ak74Item.java",
+          "src/main/resources/assets/ivo_gun_mod/models/item/ak_74.json",
+          "src/main/java/icg/entity/Ak74Entity.java"
+        ]
+      }
+    },
+    {
+      "name": "Ak74AfterShoot",
+      "type": "procedure",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ak_74_after_shoot",
+      "metadata": {
+        "files": [
+          "src/main/java/icg/procedures/Ak74AfterShootProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "B545",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "b_545",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ivo_gun_mod/models/item/b_545.json",
+          "src/main/java/icg/item/B545Item.java"
+        ]
+      }
+    },
+    {
+      "name": "B9mm",
+      "type": "item",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "b_9mm",
+      "metadata": {
+        "files": [
+          "src/main/java/icg/item/B9mmItem.java",
+          "src/main/resources/assets/ivo_gun_mod/models/item/b_9mm.json"
+        ]
+      }
+    },
+    {
+      "name": "Fort12",
+      "type": "rangeditem",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fort_12",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ivo_gun_mod/models/item/fort_12.json",
+          "src/main/java/icg/item/Fort12Item.java",
+          "src/main/java/icg/entity/Fort12Entity.java"
+        ]
+      }
+    },
+    {
+      "name": "Fort12AfterShoot",
+      "type": "procedure",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fort_12_after_shoot",
+      "metadata": {
+        "files": [
+          "src/main/java/icg/procedures/Fort12AfterShootProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "B762",
+      "type": "item",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "b_762",
+      "metadata": {
+        "files": [
+          "src/main/java/icg/item/B762Item.java",
+          "src/main/resources/assets/ivo_gun_mod/models/item/b_762.json"
+        ]
+      }
+    },
+    {
+      "name": "SvdAfterShoot",
+      "type": "procedure",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "svd_after_shoot",
+      "metadata": {
+        "files": [
+          "src/main/java/icg/procedures/SvdAfterShootProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Svd",
+      "type": "rangeditem",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "svd",
+      "metadata": {
+        "files": [
+          "src/main/java/icg/entity/SvdEntity.java",
+          "src/main/resources/assets/ivo_gun_mod/models/item/svd.json",
+          "src/main/java/icg/item/SvdItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Saiga12",
+      "type": "rangeditem",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "saiga_12",
+      "metadata": {
+        "files": [
+          "src/main/java/icg/item/Saiga12Item.java",
+          "src/main/java/icg/entity/Saiga12Entity.java",
+          "src/main/resources/assets/ivo_gun_mod/models/item/saiga_12.json"
+        ]
+      }
+    },
+    {
+      "name": "SaigaAfterShoot",
+      "type": "procedure",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "saiga_after_shoot",
+      "metadata": {
+        "files": [
+          "src/main/java/icg/procedures/SaigaAfterShootProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "G12",
+      "type": "item",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "g_12",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ivo_gun_mod/models/item/g_12.json",
+          "src/main/java/icg/item/G12Item.java"
+        ]
+      }
+    },
+    {
+      "name": "MinePriStolknovieniiSushchnostiSBlokom",
+      "type": "procedure",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mine_pri_stolknovienii_sushchnosti_s_blokom",
+      "metadata": {
+        "files": [
+          "src/main/java/icg/procedures/MinePriStolknovieniiSushchnostiSBlokomProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Mine",
+      "type": "block",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mine",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ivo_gun_mod/models/item/mine.json",
+          "src/main/resources/assets/ivo_gun_mod/models/block/mine.json",
+          "src/main/java/icg/block/MineBlock.java",
+          "src/main/resources/assets/ivo_gun_mod/blockstates/mine.json"
+        ]
+      }
+    },
+    {
+      "name": "WeponaryTable",
+      "type": "block",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weponary_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ivo_gun_mod/blockstates/weponary_table.json",
+          "src/main/java/icg/block/entity/WeponaryTableBlockEntity.java",
+          "src/main/resources/assets/ivo_gun_mod/models/item/weponary_table.json",
+          "src/main/resources/assets/ivo_gun_mod/models/block/weponary_table.json",
+          "src/main/java/icg/block/WeponaryTableBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "Ak74gp25",
+      "type": "rangeditem",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ak_74gp_25",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ivo_gun_mod/models/item/ak_74gp_25.json",
+          "src/main/java/icg/item/Ak74gp25Item.java",
+          "src/main/java/icg/entity/Ak74gp25Entity.java"
+        ]
+      }
+    },
+    {
+      "name": "Ak74gp25shoot",
+      "type": "rangeditem",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ak_74gp_25shoot",
+      "metadata": {
+        "files": [
+          "src/main/java/icg/entity/Ak74gp25shootEntity.java",
+          "src/main/resources/assets/ivo_gun_mod/models/item/ak_74gp_25shoot.json",
+          "src/main/java/icg/item/Ak74gp25shootItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Mm60",
+      "type": "item",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mm_40",
+      "metadata": {
+        "files": [
+          "src/main/java/icg/item/Mm60Item.java",
+          "src/main/resources/assets/ivo_gun_mod/models/item/mm_40.json"
+        ]
+      }
+    },
+    {
+      "name": "Gp25shoot",
+      "type": "procedure",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gp_25shoot",
+      "metadata": {
+        "files": [
+          "src/main/java/icg/procedures/Gp25shootProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Ak74gp25shootKoghdaSnariadPopadaietVBlok",
+      "type": "procedure",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ak_74gp_25shoot_koghda_snariad_popadaiet_v_blok",
+      "metadata": {
+        "files": [
+          "src/main/java/icg/procedures/Ak74gp25shootKoghdaSnariadPopadaietVBlokProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "UbgPriNazhatiiKlavishi",
+      "type": "procedure",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ubg_pri_nazhatii_klavishi",
+      "metadata": {
+        "files": [
+          "src/main/java/icg/procedures/UbgPriNazhatiiKlavishiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Ubg",
+      "type": "keybind",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ubg",
+      "metadata": {
+        "files": [
+          "src/main/java/icg/network/UbgMessage.java"
+        ]
+      }
+    },
+    {
+      "name": "Ak74gp25shootKazhdyiTikPriPoliotieSnariada",
+      "type": "procedure",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ak_74gp_25shoot_kazhdyi_tik_pri_poliotie_snariada",
+      "metadata": {
+        "files": [
+          "src/main/java/icg/procedures/Ak74gp25shootKazhdyiTikPriPoliotieSnariadaProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Rp74",
+      "type": "rangeditem",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rp_74",
+      "metadata": {
+        "files": [
+          "src/main/java/icg/entity/Rp74Entity.java",
+          "src/main/java/icg/item/Rp74Item.java",
+          "src/main/resources/assets/ivo_gun_mod/models/item/rp_74.json"
+        ]
+      }
+    },
+    {
+      "name": "Rp74AS",
+      "type": "procedure",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rp_74_as",
+      "metadata": {
+        "files": [
+          "src/main/java/icg/procedures/Rp74ASProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WeponaryTableUI",
+      "type": "gui",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weponary_table_ui",
+      "metadata": {
+        "files": [
+          "src/main/java/icg/client/gui/WeponaryTableUIScreen.java",
+          "src/main/java/icg/world/inventory/WeponaryTableUIMenu.java",
+          "src/main/java/icg/network/WeponaryTableUIButtonMessage.java"
+        ]
+      }
+    },
+    {
+      "name": "Gp25",
+      "type": "item",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gp_25",
+      "metadata": {
+        "files": [
+          "src/main/java/icg/item/Gp25Item.java",
+          "src/main/resources/assets/ivo_gun_mod/models/item/gp_25.json"
+        ]
+      }
+    },
+    {
+      "name": "AKtogp25",
+      "type": "procedure",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "a_ktogp_25",
+      "metadata": {
+        "files": [
+          "src/main/java/icg/procedures/AKtogp25Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CamoMine",
+      "type": "block",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "camo_mine",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ivo_gun_mod/blockstates/camo_mine.json",
+          "src/main/java/icg/block/CamoMineBlock.java",
+          "src/main/resources/assets/ivo_gun_mod/models/block/camo_mine.json",
+          "src/main/resources/assets/ivo_gun_mod/models/item/camo_mine.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "ar15_shoot",
+      "files": [
+        "ar15_shoot"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "ak74",
+      "files": [
+        "ak74"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "fort_shoot",
+      "files": [
+        "fort12"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "svd",
+      "files": [
+        "svd"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "saiga12",
+      "files": [
+        "saiga12"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "ubg_40_shoot",
+      "files": [
+        "40mm"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "item.ivo_gun_mod.ar_15": "AR15",
+      "subtitles.saiga12": "",
+      "subtitles.ubg_40_shoot": "",
+      "item.ivo_gun_mod.b_9mm": "9mm Ammo",
+      "item.ivo_gun_mod.svd": "Svd",
+      "item.ivo_gun_mod.g_12": "12G Ammo",
+      "subtitles.svd": "",
+      "block.ivo_gun_mod.mine": "Mine",
+      "gui.ivo_gun_mod.weponary_table_ui.label_weponary_table": "Weaponary Table",
+      "item.ivo_gun_mod.fort_12": "Fort 12",
+      "subtitles.ar15_shoot": "",
+      "item.ivo_gun_mod.n_556": "5.56 Ammo",
+      "item.ivo_gun_mod.ak_74gp_25": "AK74",
+      "item.ivo_gun_mod.rp_74": "RP74",
+      "gui.ivo_gun_mod.weponary_table_ui.label_empty": "\u003e",
+      "item.ivo_gun_mod.b_762": "7.62 Ammo",
+      "item.ivo_gun_mod.saiga_12": "Saiga12",
+      "item.ivo_gun_mod.ak_74gp_25shoot": "AK74",
+      "item.ivo_gun_mod.b_545": "5.45 Ammo",
+      "item.ivo_gun_mod.ak_74": "AK74",
+      "item.ivo_gun_mod.gp_25": "Gp 25",
+      "item.ivo_gun_mod.mm_40": "40mm Granade",
+      "subtitles.fort12_shoot": "",
+      "subtitles.fort_shoot": "",
+      "key.ivo_gun_mod.ubg": "UnderBarrel",
+      "item_group.ivo_gun_mod.igm": "IGM",
+      "block.ivo_gun_mod.weponary_table": "Weponary Table",
+      "subtitles.ak74": "",
+      "block.ivo_gun_mod.camo_mine": "Camo Mine ",
+      "gui.ivo_gun_mod.weponary_table_ui.button_upgrade": "Upgrade"
+    },
+    "uk_ua": {
+      "item.ivo_gun_mod.ar_15": "АР15",
+      "subtitles.saiga12": "",
+      "subtitles.ubg_40_shoot": "",
+      "item.ivo_gun_mod.b_9mm": "9мм Набої",
+      "item.ivo_gun_mod.svd": "СВД",
+      "item.ivo_gun_mod.g_12": "Набої 7.62",
+      "subtitles.svd": "",
+      "block.ivo_gun_mod.mine": "Міна",
+      "gui.ivo_gun_mod.weponary_table_ui.label_weponary_table": "Weponary Table",
+      "item.ivo_gun_mod.fort_12": "Форт 12",
+      "subtitles.ar15_shoot": "",
+      "item.ivo_gun_mod.n_556": "Набої 5.56 ",
+      "item.ivo_gun_mod.ak_74gp_25": "AK74",
+      "item.ivo_gun_mod.rp_74": "AK74",
+      "gui.ivo_gun_mod.weponary_table_ui.label_empty": "\u003e",
+      "item.ivo_gun_mod.b_762": "Набої 7.62 ",
+      "item.ivo_gun_mod.saiga_12": "Сайга-12",
+      "item.ivo_gun_mod.ak_74gp_25shoot": "AK74",
+      "item.ivo_gun_mod.b_545": "Набої 5.45",
+      "item.ivo_gun_mod.ak_74": "AK74",
+      "item.ivo_gun_mod.gp_25": "Gp 25",
+      "item.ivo_gun_mod.mm_40": "40мм Граната",
+      "subtitles.fort12_shoot": "",
+      "subtitles.fort_shoot": "",
+      "key.ivo_gun_mod.ubg": "Підствольний гранатомет",
+      "item_group.ivo_gun_mod.igm": "IGM",
+      "block.ivo_gun_mod.weponary_table": "Збройовий стіл",
+      "subtitles.ak74": "",
+      "block.ivo_gun_mod.camo_mine": "Mine",
+      "gui.ivo_gun_mod.weponary_table_ui.button_upgrade": "Upgrade"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "ivo_gun_mod",
+    "modName": "Ivo Gun Mod",
+    "version": "1.0.0",
+    "author": "gmake, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "geckolib"
+    ],
+    "currentGenerator": "forge-1.19.4",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "icg",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300224119
+}

@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "ak_74_b_texture",
+        "missing": ""
+      },
+      "name": "default"
+    }
+  }
+}

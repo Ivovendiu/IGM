@@ -1,0 +1,7 @@
+{
+  "parent": "ivo_gun_mod:custom/ak74_gp25",
+  "textures": {
+    "0": "ivo_gun_mod:block/ak_74_b_texture",
+    "particle": "ivo_gun_mod:item/ar15"
+  }
+}
