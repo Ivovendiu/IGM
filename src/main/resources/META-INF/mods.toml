@@ -1,14 +1,14 @@
 modLoader="javafml"
 loaderVersion="[45,)"
-license="Academic Free License v3.0"
+license="Custom license"
 
 [[mods]]
 modId="ivo_gun_mod"
 version="1.0.0"
 displayName="Ivo Gun Mod"
-credits="Created using mod maker MCreator - https://mcreator.net/about"
+credits="Ivovendiu Gun Mod"
 displayURL="https://mcreator.net"
-authors="gmake, MCreator"
+authors="Ivovendiu"
 
 [[dependencies.ivo_gun_mod]]
     modId="minecraft"

@@ -6,7 +6,7 @@
   "item.ivo_gun_mod.svd": "Svd",
   "item.ivo_gun_mod.g_12": "12G Ammo",
   "subtitles.svd": "",
-  "block.ivo_gun_mod.mine": "Mine",
+  "block.ivo_gun_mod.mine": "Міne",
   "gui.ivo_gun_mod.weponary_table_ui.label_weponary_table": "Weaponary Table",
   "item.ivo_gun_mod.fort_12": "Fort 12",
   "subtitles.ar15_shoot": "",
@@ -25,8 +25,8 @@
   "subtitles.fort_shoot": "",
   "key.ivo_gun_mod.ubg": "UnderBarrel",
   "item_group.ivo_gun_mod.igm": "IGM",
-  "block.ivo_gun_mod.weponary_table": "Weponary Table",
+  "block.ivo_gun_mod.weponary_table": "Weaponary Table",
   "subtitles.ak74": "",
-  "block.ivo_gun_mod.camo_mine": "Camo Mine ",
+  "block.ivo_gun_mod.camo_mine": "Camo Mine",
   "gui.ivo_gun_mod.weponary_table_ui.button_upgrade": "Upgrade"
 }

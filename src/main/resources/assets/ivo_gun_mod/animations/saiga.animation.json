@@ -1,0 +1,38 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.model.saiga": {
+			"loop": true
+		},
+		"animation.model.idle": {
+			"loop": true,
+			"bones": {
+				"right": {
+					"rotation": {
+						"vector": [-92.81797, -27.47162, 1.30078]
+					},
+					"position": {
+						"vector": [-2, 2.8, -16.2]
+					}
+				},
+				"left": {
+					"rotation": {
+						"vector": [116.17354, 21.69365, 6.1191]
+					},
+					"position": {
+						"vector": [5, 5, 5]
+					}
+				},
+				"group": {
+					"rotation": {
+						"vector": [0, 180, 0]
+					},
+					"position": {
+						"vector": [-14, 0, 0]
+					}
+				}
+			}
+		}
+	},
+	"geckolib_format_version": 2
+}
