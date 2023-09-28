@@ -35,6 +35,7 @@ public class IvoGunModModTabs {
 					tabData.accept(IvoGunModModItems.RP_74.get());
 					tabData.accept(IvoGunModModItems.GP_25.get());
 					tabData.accept(IvoGunModModBlocks.CAMO_MINE.get().asItem());
+					tabData.accept(IvoGunModModItems.KALASH.get());
 				})
 
 		);

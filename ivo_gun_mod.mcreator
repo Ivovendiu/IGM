@@ -597,9 +597,71 @@
           "src/main/resources/assets/ivo_gun_mod/models/item/camo_mine.json"
         ]
       }
+    },
+    {
+      "name": "Kalash",
+      "type": "animateditem",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kalash",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ivo_gun_mod/models/item/kalash.json",
+          "src/main/java/icg/item/renderer/KalashItemRenderer.java",
+          "src/main/java/icg/item/model/KalashItemModel.java",
+          "src/main/java/icg/item/KalashItem.java"
+        ]
+      }
+    },
+    {
+      "name": "KalashPriShchielchkiePKM",
+      "type": "procedure",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kalash_pri_shchielchkie_pkm",
+      "metadata": {
+        "files": [
+          "src/main/java/icg/procedures/KalashPriShchielchkiePKMProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
-  "variable_elements": [],
+  "variable_elements": [
+    {
+      "name": "ak_m_zoom",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    }
+  ],
   "sound_elements": [
     {
       "name": "ar15_shoot",
@@ -648,12 +710,21 @@
       ],
       "category": "neutral",
       "subtitle": ""
+    },
+    {
+      "name": "akm_shoot",
+      "files": [
+        "ak_m_shoot"
+      ],
+      "category": "neutral",
+      "subtitle": ""
     }
   ],
   "language_map": {
     "en_us": {
       "item.ivo_gun_mod.ar_15": "AR15",
       "subtitles.saiga12": "",
+      "subtitles.akm_shoot": "",
       "subtitles.ubg_40_shoot": "",
       "item.ivo_gun_mod.b_9mm": "9mm Ammo",
       "item.ivo_gun_mod.svd": "Svd",
@@ -679,6 +750,7 @@
       "key.ivo_gun_mod.ubg": "UnderBarrel",
       "item_group.ivo_gun_mod.igm": "IGM",
       "block.ivo_gun_mod.weponary_table": "Weaponary Table",
+      "item.ivo_gun_mod.kalash": "Kalash",
       "subtitles.ak74": "",
       "block.ivo_gun_mod.camo_mine": "Camo Mine",
       "gui.ivo_gun_mod.weponary_table_ui.button_upgrade": "Upgrade"
@@ -686,6 +758,7 @@
     "uk_ua": {
       "item.ivo_gun_mod.ar_15": "АР15",
       "subtitles.saiga12": "",
+      "subtitles.akm_shoot": "",
       "subtitles.ubg_40_shoot": "",
       "item.ivo_gun_mod.b_9mm": "9мм Набої",
       "item.ivo_gun_mod.svd": "СВД",
@@ -711,6 +784,7 @@
       "key.ivo_gun_mod.ubg": "Підствольний гранатомет",
       "item_group.ivo_gun_mod.igm": "IGM",
       "block.ivo_gun_mod.weponary_table": "Збройовий стіл",
+      "item.ivo_gun_mod.kalash": "Kalash",
       "subtitles.ak74": "",
       "block.ivo_gun_mod.camo_mine": "Міна",
       "gui.ivo_gun_mod.weponary_table_ui.button_upgrade": "Покращити"

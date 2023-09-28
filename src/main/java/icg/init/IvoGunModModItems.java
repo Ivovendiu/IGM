@@ -17,6 +17,7 @@ import icg.item.Saiga12Item;
 import icg.item.Rp74Item;
 import icg.item.N556Item;
 import icg.item.Mm60Item;
+import icg.item.KalashItem;
 import icg.item.Gp25Item;
 import icg.item.G12Item;
 import icg.item.Fort12Item;
@@ -50,6 +51,7 @@ public class IvoGunModModItems {
 	public static final RegistryObject<Item> RP_74 = REGISTRY.register("rp_74", () -> new Rp74Item());
 	public static final RegistryObject<Item> GP_25 = REGISTRY.register("gp_25", () -> new Gp25Item());
 	public static final RegistryObject<Item> CAMO_MINE = block(IvoGunModModBlocks.CAMO_MINE);
+	public static final RegistryObject<Item> KALASH = REGISTRY.register("kalash", () -> new KalashItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

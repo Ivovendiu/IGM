@@ -1,0 +1,6 @@
+{
+  "parent": "ivo_gun_mod:displaysettings/ak_metro.item",
+  "textures": {
+    "layer0": "ivo_gun_mod:item/ak_m_texture"
+  }
+}

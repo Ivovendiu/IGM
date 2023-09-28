@@ -1,6 +1,7 @@
 {
   "item.ivo_gun_mod.ar_15": "AR15",
   "subtitles.saiga12": "",
+  "subtitles.akm_shoot": "",
   "subtitles.ubg_40_shoot": "",
   "item.ivo_gun_mod.b_9mm": "9mm Ammo",
   "item.ivo_gun_mod.svd": "Svd",
@@ -26,6 +27,7 @@
   "key.ivo_gun_mod.ubg": "UnderBarrel",
   "item_group.ivo_gun_mod.igm": "IGM",
   "block.ivo_gun_mod.weponary_table": "Weaponary Table",
+  "item.ivo_gun_mod.kalash": "Kalash",
   "subtitles.ak74": "",
   "block.ivo_gun_mod.camo_mine": "Camo Mine",
   "gui.ivo_gun_mod.weponary_table_ui.button_upgrade": "Upgrade"

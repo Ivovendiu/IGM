@@ -1,0 +1,438 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.ak_metro.idle": {
+			"loop": true,
+			"bones": {
+				"right": {
+					"rotation": {
+						"vector": [-271.91488, -10.78072, -6.27116]
+					},
+					"position": {
+						"vector": [4.3, 6.3, 16]
+					},
+					"scale": {
+						"vector": [1, 1, 1]
+					}
+				},
+				"main": {
+					"rotation": {
+						"vector": [0, 0, 0]
+					},
+					"position": {
+						"vector": [0, 0, 0]
+					},
+					"scale": {
+						"vector": [1, 1, 1]
+					}
+				},
+				"left": {
+					"rotation": {
+						"vector": [-312.15273, 25.99651, -18.01663]
+					},
+					"position": {
+						"vector": [1, 3, 1]
+					},
+					"scale": {
+						"vector": [1, 1, 1]
+					}
+				},
+				"cubes": {
+					"position": {
+						"vector": [0, 0, 0]
+					},
+					"scale": {
+						"vector": [1, 1, 1]
+					}
+				},
+				"mag": {
+					"rotation": {
+						"vector": [0, 0, 0]
+					},
+					"position": {
+						"vector": [0, 0, 0]
+					},
+					"scale": {
+						"vector": [1, 1, 1]
+					}
+				},
+				"zatvor": {
+					"rotation": {
+						"vector": [0, 0, 0]
+					},
+					"position": {
+						"vector": [0, 0, -2]
+					},
+					"scale": {
+						"vector": [1, 1, 1]
+					}
+				}
+			}
+		},
+		"animation.ak_metro.new": {
+			"loop": true
+		},
+		"animation.ak_metro.shot": {
+			"animation_length": 0.45833,
+			"bones": {
+				"right": {
+					"rotation": {
+						"0.0": {
+							"vector": [-271.91488, -10.78072, -6.27116]
+						},
+						"0.1667": {
+							"vector": [-272.91488, -10.78072, -6.27116]
+						}
+					},
+					"position": {
+						"vector": [4.3, 6.3, 16]
+					},
+					"scale": {
+						"vector": [1, 1, 1]
+					}
+				},
+				"main": {
+					"rotation": {
+						"vector": [0, 0, 0]
+					},
+					"position": {
+						"vector": [0, 0, 0]
+					},
+					"scale": {
+						"vector": [1, 1, 1]
+					}
+				},
+				"left": {
+					"rotation": {
+						"vector": [-312.15273, 25.99651, -18.01663]
+					},
+					"position": {
+						"0.0": {
+							"vector": [1, 3, 1]
+						},
+						"0.2083": {
+							"vector": [0.7, 2.6, 1.8]
+						}
+					},
+					"scale": {
+						"vector": [1, 1, 1]
+					}
+				},
+				"cubes": {
+					"position": {
+						"vector": [0, 0, 0]
+					},
+					"scale": {
+						"vector": [1, 1, 1]
+					}
+				},
+				"mag": {
+					"rotation": {
+						"vector": [0, 0, 0]
+					},
+					"position": {
+						"vector": [0, 0, 0]
+					},
+					"scale": {
+						"vector": [1, 1, 1]
+					}
+				},
+				"zatvor": {
+					"rotation": {
+						"vector": [0, 0, 0]
+					},
+					"position": {
+						"vector": [0, 0, -2]
+					},
+					"scale": {
+						"vector": [1, 1, 1]
+					}
+				},
+				"ak": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.125": {
+							"vector": [-2, 0, 0],
+							"easing": "easeOutQuad"
+						},
+						"0.3333": {
+							"vector": [0, 0, 0]
+						}
+					},
+					"position": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.125": {
+							"vector": [0, 0, 1.4]
+						}
+					},
+					"scale": {
+						"vector": [1, 1, 1]
+					}
+				},
+				"flash": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.0417": {
+							"vector": [0, 90, 0]
+						},
+						"0.0833": {
+							"vector": [0, 90, 0]
+						},
+						"0.125": {
+							"vector": [0, 0, 0]
+						}
+					},
+					"position": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.0417": {
+							"vector": [0.3, 2, -35.8]
+						},
+						"0.0833": {
+							"vector": [0.3, 2, -35.8]
+						},
+						"0.125": {
+							"vector": [0, 0, 0]
+						}
+					},
+					"scale": {
+						"0.0": {
+							"vector": [1, 1, 1]
+						},
+						"0.0417": {
+							"vector": [1, 2.08, 2.08]
+						},
+						"0.0833": {
+							"vector": [1, 2.08, 2.08]
+						},
+						"0.125": {
+							"vector": [1, 1, 1]
+						}
+					}
+				}
+			},
+			"sound_effects": {
+				"0.0": {
+					"effect": "ak74"
+				}
+			}
+		},
+		"animation.ak_metro.aim_in": {
+			"animation_length": 0.45833,
+			"bones": {
+				"right": {
+					"rotation": {
+						"vector": [-271.91488, -10.78072, -6.27116]
+					},
+					"position": {
+						"vector": [4.3, 6.3, 16]
+					},
+					"scale": {
+						"vector": [1, 1, 1]
+					}
+				},
+				"main": {
+					"rotation": {
+						"vector": [0, 0, 0]
+					},
+					"position": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.3333": {
+							"vector": [4, 1.8, 11]
+						}
+					},
+					"scale": {
+						"vector": [1, 1, 1]
+					}
+				},
+				"left": {
+					"rotation": {
+						"vector": [-312.15273, 25.99651, -18.01663]
+					},
+					"position": {
+						"vector": [1, 3, 1]
+					},
+					"scale": {
+						"vector": [1, 1, 1]
+					}
+				},
+				"cubes": {
+					"position": {
+						"vector": [0, 0, 0]
+					},
+					"scale": {
+						"vector": [1, 1, 1]
+					}
+				},
+				"mag": {
+					"rotation": {
+						"vector": [0, 0, 0]
+					},
+					"position": {
+						"vector": [0, 0, 0]
+					},
+					"scale": {
+						"vector": [1, 1, 1]
+					}
+				},
+				"zatvor": {
+					"rotation": {
+						"vector": [0, 0, 0]
+					},
+					"position": {
+						"vector": [0, 0, -2]
+					},
+					"scale": {
+						"vector": [1, 1, 1]
+					}
+				}
+			}
+		},
+		"animation.ak_metro.aim_idle": {
+			"loop": true,
+			"animation_length": 0.04167,
+			"bones": {
+				"right": {
+					"rotation": {
+						"vector": [-271.91488, -10.78072, -6.27116]
+					},
+					"position": {
+						"vector": [4.3, 6.3, 16]
+					},
+					"scale": {
+						"vector": [1, 1, 1]
+					}
+				},
+				"main": {
+					"position": {
+						"vector": [4, 1.9, 10.9]
+					}
+				},
+				"left": {
+					"rotation": {
+						"vector": [-312.15273, 25.99651, -18.01663]
+					},
+					"position": {
+						"vector": [1, 3, 1]
+					},
+					"scale": {
+						"vector": [1, 1, 1]
+					}
+				},
+				"cubes": {
+					"position": {
+						"vector": [0, 0, 0]
+					},
+					"scale": {
+						"vector": [1, 1, 1]
+					}
+				},
+				"mag": {
+					"rotation": {
+						"vector": [0, 0, 0]
+					},
+					"position": {
+						"vector": [0, 0, 0]
+					},
+					"scale": {
+						"vector": [1, 1, 1]
+					}
+				},
+				"zatvor": {
+					"rotation": {
+						"vector": [0, 0, 0]
+					},
+					"position": {
+						"vector": [0, 0, -2]
+					},
+					"scale": {
+						"vector": [1, 1, 1]
+					}
+				}
+			}
+		},
+		"animation.ak_metro.aim_out": {
+			"animation_length": 0.45833,
+			"bones": {
+				"right": {
+					"rotation": {
+						"vector": [-271.91488, -10.78072, -6.27116]
+					},
+					"position": {
+						"vector": [4.3, 6.3, 16]
+					},
+					"scale": {
+						"vector": [1, 1, 1]
+					}
+				},
+				"main": {
+					"rotation": {
+						"vector": [0, 0, 0]
+					},
+					"position": {
+						"0.0": {
+							"vector": [4, 1.8, 11]
+						},
+						"0.3333": {
+							"vector": [0, 0, 0]
+						}
+					},
+					"scale": {
+						"vector": [1, 1, 1]
+					}
+				},
+				"left": {
+					"rotation": {
+						"vector": [-312.15273, 25.99651, -18.01663]
+					},
+					"position": {
+						"vector": [1, 3, 1]
+					},
+					"scale": {
+						"vector": [1, 1, 1]
+					}
+				},
+				"cubes": {
+					"position": {
+						"vector": [0, 0, 0]
+					},
+					"scale": {
+						"vector": [1, 1, 1]
+					}
+				},
+				"mag": {
+					"rotation": {
+						"vector": [0, 0, 0]
+					},
+					"position": {
+						"vector": [0, 0, 0]
+					},
+					"scale": {
+						"vector": [1, 1, 1]
+					}
+				},
+				"zatvor": {
+					"rotation": {
+						"vector": [0, 0, 0]
+					},
+					"position": {
+						"vector": [0, 0, -2]
+					},
+					"scale": {
+						"vector": [1, 1, 1]
+					}
+				}
+			}
+		}
+	},
+	"geckolib_format_version": 2
+}
