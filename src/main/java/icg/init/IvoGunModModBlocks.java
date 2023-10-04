@@ -16,6 +16,7 @@ import net.minecraft.world.level.block.Block;
 
 import icg.block.WeponaryTableBlock;
 import icg.block.MineBlock;
+import icg.block.CrackedzilBlock;
 import icg.block.CamoMineBlock;
 
 import icg.IvoGunModMod;
@@ -25,6 +26,7 @@ public class IvoGunModModBlocks {
 	public static final RegistryObject<Block> MINE = REGISTRY.register("mine", () -> new MineBlock());
 	public static final RegistryObject<Block> WEPONARY_TABLE = REGISTRY.register("weponary_table", () -> new WeponaryTableBlock());
 	public static final RegistryObject<Block> CAMO_MINE = REGISTRY.register("camo_mine", () -> new CamoMineBlock());
+	public static final RegistryObject<Block> CRACKEDZIL = REGISTRY.register("crackedzil", () -> new CrackedzilBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {

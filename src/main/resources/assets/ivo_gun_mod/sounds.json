@@ -54,5 +54,23 @@
         "stream": false
       }
     ]
+  },
+  "engine_131": {
+    "subtitle": "subtitles.engine_131",
+    "sounds": [
+      {
+        "name": "ivo_gun_mod:131_engine_sound",
+        "stream": false
+      }
+    ]
+  },
+  "car_damage": {
+    "subtitle": "subtitles.car_damage",
+    "sounds": [
+      {
+        "name": "ivo_gun_mod:car_damage",
+        "stream": false
+      }
+    ]
   }
 }

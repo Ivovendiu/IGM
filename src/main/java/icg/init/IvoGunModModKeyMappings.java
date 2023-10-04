@@ -34,10 +34,12 @@ public class IvoGunModModKeyMappings {
 			isDownOld = isDown;
 		}
 	};
+	public static final KeyMapping RELOADAKM = new KeyMapping("key.ivo_gun_mod.reloadakm", GLFW.GLFW_KEY_R, "key.categories.gameplay");
 
 	@SubscribeEvent
 	public static void registerKeyMappings(RegisterKeyMappingsEvent event) {
 		event.register(UBG);
+		event.register(RELOADAKM);
 	}
 
 	@Mod.EventBusSubscriber({Dist.CLIENT})

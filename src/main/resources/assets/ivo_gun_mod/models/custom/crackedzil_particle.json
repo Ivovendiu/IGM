@@ -1,0 +1,7 @@
+
+{
+  "parent": "ivo_gun_mod:displaysettings/zil_craked_block.item",
+  "textures": {
+    "particle": "ivo_gun_mod:block/zil_texture"
+  }
+}

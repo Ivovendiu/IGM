@@ -7,6 +7,7 @@ package icg.init;
 import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.DeferredRegister;
+import net.minecraftforge.common.ForgeSpawnEggItem;
 
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
@@ -28,6 +29,8 @@ import icg.item.Ar15Item;
 import icg.item.Ak74gp25shootItem;
 import icg.item.Ak74gp25Item;
 import icg.item.Ak74Item;
+
+import icg.block.display.CrackedzilDisplayItem;
 
 import icg.IvoGunModMod;
 
@@ -52,6 +55,9 @@ public class IvoGunModModItems {
 	public static final RegistryObject<Item> GP_25 = REGISTRY.register("gp_25", () -> new Gp25Item());
 	public static final RegistryObject<Item> CAMO_MINE = block(IvoGunModModBlocks.CAMO_MINE);
 	public static final RegistryObject<Item> KALASH = REGISTRY.register("kalash", () -> new KalashItem());
+	public static final RegistryObject<Item> ZIL_SPAWN_EGG = REGISTRY.register("zil_spawn_egg", () -> new ForgeSpawnEggItem(IvoGunModModEntities.ZIL, -1, -1, new Item.Properties()));
+	public static final RegistryObject<Item> CRACKEDZIL = REGISTRY.register(IvoGunModModBlocks.CRACKEDZIL.getId().getPath(), () -> new CrackedzilDisplayItem(IvoGunModModBlocks.CRACKEDZIL.get(), new Item.Properties()));
+	public static final RegistryObject<Item> ZILPUSTO_SPAWN_EGG = REGISTRY.register("zilpusto_spawn_egg", () -> new ForgeSpawnEggItem(IvoGunModModEntities.ZILPUSTO, -1, -1, new Item.Properties()));
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

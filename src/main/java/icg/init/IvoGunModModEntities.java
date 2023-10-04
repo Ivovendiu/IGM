@@ -16,6 +16,8 @@ import net.minecraft.world.entity.MobCategory;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Entity;
 
+import icg.entity.ZilpustoEntity;
+import icg.entity.ZilEntity;
 import icg.entity.SvdEntity;
 import icg.entity.Saiga12Entity;
 import icg.entity.Rp74Entity;
@@ -46,6 +48,14 @@ public class IvoGunModModEntities {
 			EntityType.Builder.<Ak74gp25shootEntity>of(Ak74gp25shootEntity::new, MobCategory.MISC).setCustomClientFactory(Ak74gp25shootEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
 	public static final RegistryObject<EntityType<Rp74Entity>> RP_74 = register("projectile_rp_74",
 			EntityType.Builder.<Rp74Entity>of(Rp74Entity::new, MobCategory.MISC).setCustomClientFactory(Rp74Entity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
+	public static final RegistryObject<EntityType<ZilEntity>> ZIL = register("zil",
+			EntityType.Builder.<ZilEntity>of(ZilEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(ZilEntity::new)
+
+					.sized(3f, 3f));
+	public static final RegistryObject<EntityType<ZilpustoEntity>> ZILPUSTO = register("zilpusto",
+			EntityType.Builder.<ZilpustoEntity>of(ZilpustoEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(ZilpustoEntity::new)
+
+					.sized(3f, 3f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
@@ -54,10 +64,14 @@ public class IvoGunModModEntities {
 	@SubscribeEvent
 	public static void init(FMLCommonSetupEvent event) {
 		event.enqueueWork(() -> {
+			ZilEntity.init();
+			ZilpustoEntity.init();
 		});
 	}
 
 	@SubscribeEvent
 	public static void registerAttributes(EntityAttributeCreationEvent event) {
+		event.put(ZIL.get(), ZilEntity.createAttributes().build());
+		event.put(ZILPUSTO.get(), ZilpustoEntity.createAttributes().build());
 	}
 }

@@ -36,6 +36,9 @@ public class IvoGunModModTabs {
 					tabData.accept(IvoGunModModItems.GP_25.get());
 					tabData.accept(IvoGunModModBlocks.CAMO_MINE.get().asItem());
 					tabData.accept(IvoGunModModItems.KALASH.get());
+					tabData.accept(IvoGunModModItems.ZIL_SPAWN_EGG.get());
+					tabData.accept(IvoGunModModBlocks.CRACKEDZIL.get().asItem());
+					tabData.accept(IvoGunModModItems.ZILPUSTO_SPAWN_EGG.get());
 				})
 
 		);

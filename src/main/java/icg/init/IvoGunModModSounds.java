@@ -22,4 +22,6 @@ public class IvoGunModModSounds {
 	public static final RegistryObject<SoundEvent> SAIGA12 = REGISTRY.register("saiga12", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("ivo_gun_mod", "saiga12")));
 	public static final RegistryObject<SoundEvent> UBG_40_SHOOT = REGISTRY.register("ubg_40_shoot", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("ivo_gun_mod", "ubg_40_shoot")));
 	public static final RegistryObject<SoundEvent> AKM_SHOOT = REGISTRY.register("akm_shoot", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("ivo_gun_mod", "akm_shoot")));
+	public static final RegistryObject<SoundEvent> ENGINE_131 = REGISTRY.register("engine_131", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("ivo_gun_mod", "engine_131")));
+	public static final RegistryObject<SoundEvent> CAR_DAMAGE = REGISTRY.register("car_damage", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("ivo_gun_mod", "car_damage")));
 }
