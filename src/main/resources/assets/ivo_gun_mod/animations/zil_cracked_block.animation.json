@@ -3,6 +3,8 @@
 	"animations": {
 		"0": {
 			"loop": true,
+			"animation_length": 0.125,
+			"loop_delay": "1",
 			"bones": {
 				"all": {
 					"rotation": {
@@ -39,8 +41,9 @@
 				}
 			}
 		},
-		"animation.model.zil_cracked": {
+		"1": {
 			"loop": true,
+			"animation_length": 0.25,
 			"bones": {
 				"all": {
 					"rotation": {

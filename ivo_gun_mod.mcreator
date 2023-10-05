@@ -756,6 +756,23 @@
           "src/main/resources/data/ivo_gun_mod/forge/biome_modifier/zilpusto_biome_modifier.json"
         ]
       }
+    },
+    {
+      "name": "Zilcargo",
+      "type": "animatedentity",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zilcargo",
+      "metadata": {
+        "files": [
+          "src/main/java/icg/client/renderer/ZilcargoRenderer.java",
+          "src/main/resources/assets/ivo_gun_mod/models/item/zilcargo_spawn_egg.json",
+          "src/main/java/icg/entity/ZilcargoEntity.java",
+          "src/main/resources/data/ivo_gun_mod/forge/biome_modifier/zilcargo_biome_modifier.json",
+          "src/main/java/icg/entity/model/ZilcargoModel.java"
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -874,12 +891,14 @@
       "item.ivo_gun_mod.mm_40": "40mm Granade",
       "subtitles.fort12_shoot": "",
       "subtitles.fort_shoot": "",
+      "entity.ivo_gun_mod.zilcargo": "Zil Cargo",
       "key.ivo_gun_mod.ubg": "UnderBarrel",
       "item_group.ivo_gun_mod.igm": "IGM",
       "block.ivo_gun_mod.weponary_table": "Weaponary Table",
       "item.ivo_gun_mod.kalash": "Kalash",
       "item.ivo_gun_mod.zil_spawn_egg": "Zil Spawn Egg",
       "subtitles.ak74": "",
+      "item.ivo_gun_mod.zilcargo_spawn_egg": "Zil Cargo Spawn Egg",
       "block.ivo_gun_mod.camo_mine": "Camo Mine",
       "gui.ivo_gun_mod.weponary_table_ui.button_upgrade": "Upgrade"
     },
@@ -916,12 +935,14 @@
       "item.ivo_gun_mod.mm_40": "40мм Граната",
       "subtitles.fort12_shoot": "",
       "subtitles.fort_shoot": "",
+      "entity.ivo_gun_mod.zilcargo": "Zil Pusto",
       "key.ivo_gun_mod.ubg": "Підствольний гранатомет",
       "item_group.ivo_gun_mod.igm": "IGM",
       "block.ivo_gun_mod.weponary_table": "Збройовий стіл",
       "item.ivo_gun_mod.kalash": "Kalash",
       "item.ivo_gun_mod.zil_spawn_egg": "Zil Spawn Egg",
       "subtitles.ak74": "",
+      "item.ivo_gun_mod.zilcargo_spawn_egg": "Zil Pusto Spawn Egg",
       "block.ivo_gun_mod.camo_mine": "Міна",
       "gui.ivo_gun_mod.weponary_table_ui.button_upgrade": "Покращити"
     }

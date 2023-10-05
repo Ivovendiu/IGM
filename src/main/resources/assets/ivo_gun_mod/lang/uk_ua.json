@@ -31,12 +31,14 @@
   "item.ivo_gun_mod.mm_40": "40мм Граната",
   "subtitles.fort12_shoot": "",
   "subtitles.fort_shoot": "",
+  "entity.ivo_gun_mod.zilcargo": "Zil Pusto",
   "key.ivo_gun_mod.ubg": "Підствольний гранатомет",
   "item_group.ivo_gun_mod.igm": "IGM",
   "block.ivo_gun_mod.weponary_table": "Збройовий стіл",
   "item.ivo_gun_mod.kalash": "Kalash",
   "item.ivo_gun_mod.zil_spawn_egg": "Zil Spawn Egg",
   "subtitles.ak74": "",
+  "item.ivo_gun_mod.zilcargo_spawn_egg": "Zil Pusto Spawn Egg",
   "block.ivo_gun_mod.camo_mine": "Міна",
   "gui.ivo_gun_mod.weponary_table_ui.button_upgrade": "Покращити"
 }

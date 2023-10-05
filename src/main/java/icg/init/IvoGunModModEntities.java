@@ -17,6 +17,7 @@ import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Entity;
 
 import icg.entity.ZilpustoEntity;
+import icg.entity.ZilcargoEntity;
 import icg.entity.ZilEntity;
 import icg.entity.SvdEntity;
 import icg.entity.Saiga12Entity;
@@ -56,6 +57,10 @@ public class IvoGunModModEntities {
 			EntityType.Builder.<ZilpustoEntity>of(ZilpustoEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(ZilpustoEntity::new)
 
 					.sized(3f, 3f));
+	public static final RegistryObject<EntityType<ZilcargoEntity>> ZILCARGO = register("zilcargo",
+			EntityType.Builder.<ZilcargoEntity>of(ZilcargoEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(ZilcargoEntity::new)
+
+					.sized(3f, 3f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
@@ -66,6 +71,7 @@ public class IvoGunModModEntities {
 		event.enqueueWork(() -> {
 			ZilEntity.init();
 			ZilpustoEntity.init();
+			ZilcargoEntity.init();
 		});
 	}
 
@@ -73,5 +79,6 @@ public class IvoGunModModEntities {
 	public static void registerAttributes(EntityAttributeCreationEvent event) {
 		event.put(ZIL.get(), ZilEntity.createAttributes().build());
 		event.put(ZILPUSTO.get(), ZilpustoEntity.createAttributes().build());
+		event.put(ZILCARGO.get(), ZilcargoEntity.createAttributes().build());
 	}
 }

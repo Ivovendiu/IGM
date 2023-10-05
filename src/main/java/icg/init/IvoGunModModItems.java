@@ -58,6 +58,7 @@ public class IvoGunModModItems {
 	public static final RegistryObject<Item> ZIL_SPAWN_EGG = REGISTRY.register("zil_spawn_egg", () -> new ForgeSpawnEggItem(IvoGunModModEntities.ZIL, -1, -1, new Item.Properties()));
 	public static final RegistryObject<Item> CRACKEDZIL = REGISTRY.register(IvoGunModModBlocks.CRACKEDZIL.getId().getPath(), () -> new CrackedzilDisplayItem(IvoGunModModBlocks.CRACKEDZIL.get(), new Item.Properties()));
 	public static final RegistryObject<Item> ZILPUSTO_SPAWN_EGG = REGISTRY.register("zilpusto_spawn_egg", () -> new ForgeSpawnEggItem(IvoGunModModEntities.ZILPUSTO, -1, -1, new Item.Properties()));
+	public static final RegistryObject<Item> ZILCARGO_SPAWN_EGG = REGISTRY.register("zilcargo_spawn_egg", () -> new ForgeSpawnEggItem(IvoGunModModEntities.ZILCARGO, -1, -1, new Item.Properties()));
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

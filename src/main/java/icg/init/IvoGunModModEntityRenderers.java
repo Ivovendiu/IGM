@@ -12,6 +12,7 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraft.client.renderer.entity.ThrownItemRenderer;
 
 import icg.client.renderer.ZilpustoRenderer;
+import icg.client.renderer.ZilcargoRenderer;
 import icg.client.renderer.ZilRenderer;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
@@ -28,5 +29,6 @@ public class IvoGunModModEntityRenderers {
 		event.registerEntityRenderer(IvoGunModModEntities.RP_74.get(), ThrownItemRenderer::new);
 		event.registerEntityRenderer(IvoGunModModEntities.ZIL.get(), ZilRenderer::new);
 		event.registerEntityRenderer(IvoGunModModEntities.ZILPUSTO.get(), ZilpustoRenderer::new);
+		event.registerEntityRenderer(IvoGunModModEntities.ZILCARGO.get(), ZilcargoRenderer::new);
 	}
 }
