@@ -50,7 +50,7 @@ public class IvoGunModModEntities {
 	public static final RegistryObject<EntityType<Rp74Entity>> RP_74 = register("projectile_rp_74",
 			EntityType.Builder.<Rp74Entity>of(Rp74Entity::new, MobCategory.MISC).setCustomClientFactory(Rp74Entity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
 	public static final RegistryObject<EntityType<ZilEntity>> ZIL = register("zil",
-			EntityType.Builder.<ZilEntity>of(ZilEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(ZilEntity::new)
+			EntityType.Builder.<ZilEntity>of(ZilEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(ZilEntity::new)
 
 					.sized(3f, 3f));
 	public static final RegistryObject<EntityType<ZilpustoEntity>> ZILPUSTO = register("zilpusto",

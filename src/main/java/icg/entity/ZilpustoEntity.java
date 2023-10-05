@@ -26,6 +26,7 @@ import net.minecraft.world.entity.ai.attributes.Attributes;
 import net.minecraft.world.entity.ai.attributes.AttributeSupplier;
 import net.minecraft.world.entity.SpawnPlacements;
 import net.minecraft.world.entity.Pose;
+import net.minecraft.world.entity.PathfinderMob;
 import net.minecraft.world.entity.MobType;
 import net.minecraft.world.entity.Mob;
 import net.minecraft.world.entity.LivingEntity;
@@ -49,7 +50,7 @@ import net.minecraft.core.BlockPos;
 
 import icg.init.IvoGunModModEntities;
 
-public class ZilpustoEntity extends Monster implements GeoEntity {
+public class ZilpustoEntity extends PathfinderMob implements GeoEntity {
 	public static final EntityDataAccessor<Boolean> SHOOT = SynchedEntityData.defineId(ZilpustoEntity.class, EntityDataSerializers.BOOLEAN);
 	public static final EntityDataAccessor<String> ANIMATION = SynchedEntityData.defineId(ZilpustoEntity.class, EntityDataSerializers.STRING);
 	public static final EntityDataAccessor<String> TEXTURE = SynchedEntityData.defineId(ZilpustoEntity.class, EntityDataSerializers.STRING);
@@ -187,6 +188,12 @@ public class ZilpustoEntity extends Monster implements GeoEntity {
 		}
 		this.maxUpStep = 0.5F;
 		super.travel(dir);
+	}
+
+	@Override
+	public void aiStep() {
+		super.aiStep();
+		this.updateSwingTime();
 	}
 
 	public static void init() {

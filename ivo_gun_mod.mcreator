@@ -711,7 +711,6 @@
       "metadata": {
         "files": [
           "src/main/java/icg/entity/model/ZilModel.java",
-          "src/main/resources/data/ivo_gun_mod/forge/biome_modifier/zil_biome_modifier.json",
           "src/main/resources/assets/ivo_gun_mod/models/item/zil_spawn_egg.json",
           "src/main/java/icg/client/renderer/ZilRenderer.java",
           "src/main/java/icg/entity/ZilEntity.java"
