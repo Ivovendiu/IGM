@@ -785,7 +785,7 @@
       "name": "Thit5u9h",
       "type": "musicdisc",
       "sortid": 45,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "thit_5u_9h",
       "metadata": {
@@ -799,7 +799,7 @@
       "name": "Hmmvonek",
       "type": "animatedentity",
       "sortid": 45,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "hmmvonek",
       "metadata": {
@@ -898,9 +898,9 @@
   "language_map": {
     "en_us": {
       "key.ivo_gun_mod.reloadakm": "reload_akm",
-      "item.ivo_gun_mod.ar_15": "AR15",
-      "subtitles.saiga12": "",
       "subtitles.akm_shoot": "",
+      "subtitles.saiga12": "",
+      "item.ivo_gun_mod.ar_15": "AR15",
       "subtitles.ubg_40_shoot": "",
       "item.ivo_gun_mod.b_9mm": "9mm Ammo",
       "item.ivo_gun_mod.svd": "Svd",
@@ -942,8 +942,8 @@
       "gui.ivo_gun_mod.weponary_table_ui.button_upgrade": "Upgrade"
     },
     "uk_ua": {
-      "key.ivo_gun_mod.reloadakm": "reload_akm",
       "entity.ivo_gun_mod.hmmvonek": "Humvve",
+      "key.ivo_gun_mod.reloadakm": "reload_akm",
       "item.ivo_gun_mod.ar_15": "АР15",
       "subtitles.saiga12": "",
       "subtitles.akm_shoot": "",
