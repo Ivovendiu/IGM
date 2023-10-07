@@ -61,6 +61,7 @@ public class IvoGunModModItems {
 	public static final RegistryObject<Item> CRAKEDZIL = block(IvoGunModModBlocks.CRAKEDZIL);
 	public static final RegistryObject<Item> DR = REGISTRY.register("dr", () -> new DrItem());
 	public static final RegistryObject<Item> THIT_5U_9H = REGISTRY.register("thit_5u_9h", () -> new Thit5u9hItem());
+	public static final RegistryObject<Item> HMMVONEK_SPAWN_EGG = REGISTRY.register("hmmvonek_spawn_egg", () -> new ForgeSpawnEggItem(IvoGunModModEntities.HMMVONEK, -10040320, -16738048, new Item.Properties()));
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

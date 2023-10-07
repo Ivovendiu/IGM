@@ -7,6 +7,7 @@ import net.minecraftforge.event.entity.living.LivingEvent;
 import icg.entity.ZilpustoEntity;
 import icg.entity.ZilcargoEntity;
 import icg.entity.ZilEntity;
+import icg.entity.HmmvonekEntity;
 
 @Mod.EventBusSubscriber
 public class EntityAnimationFactory {
@@ -28,6 +29,13 @@ public class EntityAnimationFactory {
 				}
 			}
 			if (event.getEntity() instanceof ZilcargoEntity syncable) {
+				String animation = syncable.getSyncedAnimation();
+				if (!animation.equals("undefined")) {
+					syncable.setAnimation("undefined");
+					syncable.animationprocedure = animation;
+				}
+			}
+			if (event.getEntity() instanceof HmmvonekEntity syncable) {
 				String animation = syncable.getSyncedAnimation();
 				if (!animation.equals("undefined")) {
 					syncable.setAnimation("undefined");

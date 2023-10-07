@@ -14,6 +14,7 @@ import net.minecraft.client.renderer.entity.ThrownItemRenderer;
 import icg.client.renderer.ZilpustoRenderer;
 import icg.client.renderer.ZilcargoRenderer;
 import icg.client.renderer.ZilRenderer;
+import icg.client.renderer.HmmvonekRenderer;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 public class IvoGunModModEntityRenderers {
@@ -30,5 +31,6 @@ public class IvoGunModModEntityRenderers {
 		event.registerEntityRenderer(IvoGunModModEntities.ZIL.get(), ZilRenderer::new);
 		event.registerEntityRenderer(IvoGunModModEntities.ZILPUSTO.get(), ZilpustoRenderer::new);
 		event.registerEntityRenderer(IvoGunModModEntities.ZILCARGO.get(), ZilcargoRenderer::new);
+		event.registerEntityRenderer(IvoGunModModEntities.HMMVONEK.get(), HmmvonekRenderer::new);
 	}
 }
