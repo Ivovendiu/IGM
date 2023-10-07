@@ -1,10 +1,6 @@
 package icg.entity.model;
 
-import software.bernie.geckolib.model.GeoModel;
-
-import net.minecraft.resources.ResourceLocation;
-
-import icg.entity.HmmvonekEntity;
+import software.bernie.geckolib.core.animation.AnimationState;
 
 public class HmmvonekModel extends GeoModel<HmmvonekEntity> {
 	@Override

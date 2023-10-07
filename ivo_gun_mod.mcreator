@@ -783,6 +783,20 @@
           "src/main/java/icg/entity/model/HmmvonekModel.java"
         ]
       }
+    },
+    {
+      "name": "Thit5u9h",
+      "type": "musicdisc",
+      "sortid": 45,
+      "compiles": false,
+      "locked_code": false,
+      "registry_name": "thit_5u_9h",
+      "metadata": {
+        "files": [
+          "src/main/java/icg/item/Thit5u9hItem.java",
+          "src/main/resources/assets/ivo_gun_mod/models/item/thit_5u_9h.json"
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -869,7 +883,6 @@
   ],
   "language_map": {
     "en_us": {
-      "entity.ivo_gun_mod.hmmvonek": "Humvve",
       "key.ivo_gun_mod.reloadakm": "reload_akm",
       "item.ivo_gun_mod.ar_15": "AR15",
       "subtitles.saiga12": "",
@@ -886,7 +899,6 @@
       "subtitles.ar15_shoot": "",
       "item.ivo_gun_mod.n_556": "5.56 Ammo",
       "item.ivo_gun_mod.ak_74gp_25": "AK74",
-      "item.ivo_gun_mod.hmmvonek_spawn_egg": "Humvve Spawn Egg",
       "item.ivo_gun_mod.rp_74": "RP74",
       "gui.ivo_gun_mod.weponary_table_ui.label_empty": "\u003e",
       "subtitles.engine_131": "Truck ride",

@@ -13,6 +13,7 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
+import icg.item.Thit5u9hItem;
 import icg.item.SvdItem;
 import icg.item.Saiga12Item;
 import icg.item.Rp74Item;
@@ -58,6 +59,7 @@ public class IvoGunModModItems {
 	public static final RegistryObject<Item> ZILCARGO_SPAWN_EGG = REGISTRY.register("zilcargo_spawn_egg", () -> new ForgeSpawnEggItem(IvoGunModModEntities.ZILCARGO, -1, -1, new Item.Properties()));
 	public static final RegistryObject<Item> CRAKEDZIL = block(IvoGunModModBlocks.CRAKEDZIL);
 	public static final RegistryObject<Item> HMMVONEK_SPAWN_EGG = REGISTRY.register("hmmvonek_spawn_egg", () -> new ForgeSpawnEggItem(IvoGunModModEntities.HMMVONEK, -10040320, -16738048, new Item.Properties()));
+	public static final RegistryObject<Item> THIT_5U_9H = REGISTRY.register("thit_5u_9h", () -> new Thit5u9hItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
