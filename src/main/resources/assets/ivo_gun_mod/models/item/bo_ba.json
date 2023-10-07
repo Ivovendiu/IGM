@@ -1,7 +1,0 @@
-{
-  "parent": "ivo_gun_mod:custom/12g",
-  "textures": {
-    "1": "ivo_gun_mod:block/12g_texture",
-    "particle": "ivo_gun_mod:item/anim_texture"
-  }
-}

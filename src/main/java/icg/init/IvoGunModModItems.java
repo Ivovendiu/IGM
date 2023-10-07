@@ -22,7 +22,6 @@ import icg.item.KalashItem;
 import icg.item.Gp25Item;
 import icg.item.G12Item;
 import icg.item.Fort12Item;
-import icg.item.BoBaItem;
 import icg.item.B9mmItem;
 import icg.item.B762Item;
 import icg.item.B545Item;
@@ -58,7 +57,6 @@ public class IvoGunModModItems {
 	public static final RegistryObject<Item> ZILPUSTO_SPAWN_EGG = REGISTRY.register("zilpusto_spawn_egg", () -> new ForgeSpawnEggItem(IvoGunModModEntities.ZILPUSTO, -1, -1, new Item.Properties()));
 	public static final RegistryObject<Item> ZILCARGO_SPAWN_EGG = REGISTRY.register("zilcargo_spawn_egg", () -> new ForgeSpawnEggItem(IvoGunModModEntities.ZILCARGO, -1, -1, new Item.Properties()));
 	public static final RegistryObject<Item> CRAKEDZIL = block(IvoGunModModBlocks.CRAKEDZIL);
-	public static final RegistryObject<Item> BO_BA = REGISTRY.register("bo_ba", () -> new BoBaItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
