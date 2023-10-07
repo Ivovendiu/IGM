@@ -49,7 +49,6 @@ public class IvoGunModModTabs {
 					tabData.accept(IvoGunModModItems.ZILPUSTO_SPAWN_EGG.get());
 					tabData.accept(IvoGunModModItems.ZILCARGO_SPAWN_EGG.get());
 					tabData.accept(IvoGunModModBlocks.CRAKEDZIL.get().asItem());
-					tabData.accept(IvoGunModModItems.DR.get());
 				})
 
 		);

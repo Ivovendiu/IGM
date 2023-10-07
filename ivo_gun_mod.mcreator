@@ -768,20 +768,6 @@
       }
     },
     {
-      "name": "Dr",
-      "type": "item",
-      "sortid": 44,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "dr",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/ivo_gun_mod/models/item/dr.json",
-          "src/main/java/icg/item/DrItem.java"
-        ]
-      }
-    },
-    {
       "name": "Hmmvonek",
       "type": "animatedentity",
       "sortid": 45,
@@ -883,15 +869,14 @@
   ],
   "language_map": {
     "en_us": {
-      "key.ivo_gun_mod.reloadakm": "reload_akm",
       "entity.ivo_gun_mod.hmmvonek": "Humvve",
+      "key.ivo_gun_mod.reloadakm": "reload_akm",
       "item.ivo_gun_mod.ar_15": "AR15",
       "subtitles.saiga12": "",
       "subtitles.akm_shoot": "",
       "subtitles.ubg_40_shoot": "",
       "item.ivo_gun_mod.b_9mm": "9mm Ammo",
       "item.ivo_gun_mod.svd": "Svd",
-      "item.ivo_gun_mod.dr": "Dr",
       "item.ivo_gun_mod.g_12": "12G Ammo",
       "subtitles.svd": "",
       "entity.ivo_gun_mod.zil": "Zil",
@@ -930,15 +915,14 @@
       "gui.ivo_gun_mod.weponary_table_ui.button_upgrade": "Upgrade"
     },
     "uk_ua": {
-      "key.ivo_gun_mod.reloadakm": "reload_akm",
       "entity.ivo_gun_mod.hmmvonek": "Humvve",
+      "key.ivo_gun_mod.reloadakm": "reload_akm",
       "item.ivo_gun_mod.ar_15": "АР15",
       "subtitles.saiga12": "",
       "subtitles.akm_shoot": "",
       "subtitles.ubg_40_shoot": "",
       "item.ivo_gun_mod.b_9mm": "9мм Набої",
       "item.ivo_gun_mod.svd": "СВД",
-      "item.ivo_gun_mod.dr": "Dr",
       "item.ivo_gun_mod.g_12": "Набої 7.62",
       "subtitles.svd": "",
       "entity.ivo_gun_mod.zil": "Zil",
