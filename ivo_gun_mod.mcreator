@@ -780,6 +780,20 @@
           "src/main/java/icg/item/DrItem.java"
         ]
       }
+    },
+    {
+      "name": "Thit5u9h",
+      "type": "musicdisc",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thit_5u_9h",
+      "metadata": {
+        "files": [
+          "src/main/java/icg/item/Thit5u9hItem.java",
+          "src/main/resources/assets/ivo_gun_mod/models/item/thit_5u_9h.json"
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -867,9 +881,9 @@
   "language_map": {
     "en_us": {
       "key.ivo_gun_mod.reloadakm": "reload_akm",
-      "subtitles.akm_shoot": "",
-      "subtitles.saiga12": "",
       "item.ivo_gun_mod.ar_15": "AR15",
+      "subtitles.saiga12": "",
+      "subtitles.akm_shoot": "",
       "subtitles.ubg_40_shoot": "",
       "item.ivo_gun_mod.b_9mm": "9mm Ammo",
       "item.ivo_gun_mod.svd": "Svd",
@@ -901,20 +915,22 @@
       "subtitles.fort_shoot": "",
       "entity.ivo_gun_mod.zilcargo": "Zil Cargo",
       "key.ivo_gun_mod.ubg": "UnderBarrel",
+      "item.ivo_gun_mod.thit_5u_9h.desc": "t5",
       "item_group.ivo_gun_mod.igm": "IGM",
       "block.ivo_gun_mod.weponary_table": "Weaponary Table",
       "item.ivo_gun_mod.kalash": "Kalash",
       "item.ivo_gun_mod.zil_spawn_egg": "Zil Spawn Egg",
       "subtitles.ak74": "",
+      "item.ivo_gun_mod.thit_5u_9h": "Thit 5u 9h",
       "item.ivo_gun_mod.zilcargo_spawn_egg": "Zil Cargo Spawn Egg",
       "block.ivo_gun_mod.camo_mine": "Camo Mine",
       "gui.ivo_gun_mod.weponary_table_ui.button_upgrade": "Upgrade"
     },
     "uk_ua": {
       "key.ivo_gun_mod.reloadakm": "reload_akm",
-      "subtitles.akm_shoot": "",
-      "subtitles.saiga12": "",
       "item.ivo_gun_mod.ar_15": "АР15",
+      "subtitles.saiga12": "",
+      "subtitles.akm_shoot": "",
       "subtitles.ubg_40_shoot": "",
       "item.ivo_gun_mod.b_9mm": "9мм Набої",
       "item.ivo_gun_mod.svd": "СВД",
@@ -946,11 +962,13 @@
       "subtitles.fort_shoot": "",
       "entity.ivo_gun_mod.zilcargo": "Zil Pusto",
       "key.ivo_gun_mod.ubg": "Підствольний гранатомет",
+      "item.ivo_gun_mod.thit_5u_9h.desc": "t5",
       "item_group.ivo_gun_mod.igm": "IGM",
       "block.ivo_gun_mod.weponary_table": "Збройовий стіл",
       "item.ivo_gun_mod.kalash": "Kalash",
       "item.ivo_gun_mod.zil_spawn_egg": "Zil Spawn Egg",
       "subtitles.ak74": "",
+      "item.ivo_gun_mod.thit_5u_9h": "Thit 5u 9h",
       "item.ivo_gun_mod.zilcargo_spawn_egg": "Zil Pusto Spawn Egg",
       "block.ivo_gun_mod.camo_mine": "Міна",
       "gui.ivo_gun_mod.weponary_table_ui.button_upgrade": "Покращити"
