@@ -718,28 +718,6 @@
       }
     },
     {
-      "name": "Crackedzil",
-      "type": "animatedblock",
-      "sortid": 40,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "crackedzil",
-      "metadata": {
-        "files": [
-          "src/main/java/icg/block/renderer/CrackedzilTileRenderer.java",
-          "src/main/java/icg/block/CrackedzilBlock.java",
-          "src/main/java/icg/block/display/CrackedzilDisplayItem.java",
-          "src/main/java/icg/block/model/CrackedzilBlockModel.java",
-          "src/main/resources/assets/ivo_gun_mod/models/custom/crackedzil_particle.json",
-          "src/main/resources/assets/ivo_gun_mod/models/item/crackedzil.json",
-          "src/main/java/icg/block/model/CrackedzilDisplayModel.java",
-          "src/main/resources/assets/ivo_gun_mod/blockstates/crackedzil.json",
-          "src/main/java/icg/block/renderer/CrackedzilDisplayItemRenderer.java",
-          "src/main/java/icg/block/entity/CrackedzilTileEntity.java"
-        ]
-      }
-    },
-    {
       "name": "Zilpusto",
       "type": "animatedentity",
       "sortid": 41,
@@ -770,6 +748,36 @@
           "src/main/java/icg/entity/ZilcargoEntity.java",
           "src/main/resources/data/ivo_gun_mod/forge/biome_modifier/zilcargo_biome_modifier.json",
           "src/main/java/icg/entity/model/ZilcargoModel.java"
+        ]
+      }
+    },
+    {
+      "name": "Crakedzil",
+      "type": "block",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crakedzil",
+      "metadata": {
+        "files": [
+          "src/main/java/icg/block/CrakedzilBlock.java",
+          "src/main/resources/assets/ivo_gun_mod/blockstates/crakedzil.json",
+          "src/main/resources/assets/ivo_gun_mod/models/block/crakedzil.json",
+          "src/main/resources/assets/ivo_gun_mod/models/item/crakedzil.json"
+        ]
+      }
+    },
+    {
+      "name": "BoBa",
+      "type": "item",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bo_ba",
+      "metadata": {
+        "files": [
+          "src/main/java/icg/item/BoBaItem.java",
+          "src/main/resources/assets/ivo_gun_mod/models/item/bo_ba.json"
         ]
       }
     }
@@ -863,7 +871,6 @@
       "subtitles.saiga12": "",
       "item.ivo_gun_mod.ar_15": "AR15",
       "subtitles.ubg_40_shoot": "",
-      "block.ivo_gun_mod.crackedzil": "Crackedzil",
       "item.ivo_gun_mod.b_9mm": "9mm Ammo",
       "item.ivo_gun_mod.svd": "Svd",
       "item.ivo_gun_mod.g_12": "12G Ammo",
@@ -873,11 +880,13 @@
       "gui.ivo_gun_mod.weponary_table_ui.label_weponary_table": "Weaponary Table",
       "item.ivo_gun_mod.fort_12": "Fort 12",
       "subtitles.ar15_shoot": "",
+      "item.ivo_gun_mod.bo_ba": "Bo Ba",
       "item.ivo_gun_mod.n_556": "5.56 Ammo",
       "item.ivo_gun_mod.ak_74gp_25": "AK74",
       "item.ivo_gun_mod.rp_74": "RP74",
       "gui.ivo_gun_mod.weponary_table_ui.label_empty": "\u003e",
       "subtitles.engine_131": "Truck ride",
+      "block.ivo_gun_mod.crakedzil": "Crakedzil",
       "item.ivo_gun_mod.b_762": "7.62 Ammo",
       "item.ivo_gun_mod.saiga_12": "Saiga12",
       "item.ivo_gun_mod.ak_74gp_25shoot": "AK74",
@@ -907,7 +916,6 @@
       "subtitles.saiga12": "",
       "item.ivo_gun_mod.ar_15": "АР15",
       "subtitles.ubg_40_shoot": "",
-      "block.ivo_gun_mod.crackedzil": "Crackedzil",
       "item.ivo_gun_mod.b_9mm": "9мм Набої",
       "item.ivo_gun_mod.svd": "СВД",
       "item.ivo_gun_mod.g_12": "Набої 7.62",
@@ -917,11 +925,13 @@
       "gui.ivo_gun_mod.weponary_table_ui.label_weponary_table": "Збройовий стіл",
       "item.ivo_gun_mod.fort_12": "Форт 12",
       "subtitles.ar15_shoot": "",
+      "item.ivo_gun_mod.bo_ba": "Bo Ba",
       "item.ivo_gun_mod.n_556": "Набої 5.56 ",
       "item.ivo_gun_mod.ak_74gp_25": "AK74",
       "item.ivo_gun_mod.rp_74": "AK74",
       "gui.ivo_gun_mod.weponary_table_ui.label_empty": "\u003e",
       "subtitles.engine_131": "Truck ride",
+      "block.ivo_gun_mod.crakedzil": "Crakedzil",
       "item.ivo_gun_mod.b_762": "Набої 7.62 ",
       "item.ivo_gun_mod.saiga_12": "Сайга-12",
       "item.ivo_gun_mod.ak_74gp_25shoot": "AK74",

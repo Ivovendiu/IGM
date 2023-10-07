@@ -1,0 +1,9 @@
+{
+  "parent": "ivo_gun_mod:custom/craked_zil",
+  "textures": {
+    "all": "ivo_gun_mod:block/zil_texture",
+    "particle": "ivo_gun_mod:block/zil_texture",
+    "1": "ivo_gun_mod:block/zil_texture"
+  },
+  "render_type": "cutout"
+}
