@@ -1,6 +1,0 @@
-{
-  "parent": "item/generated",
-  "textures": {
-    "layer0": "ivo_gun_mod:item/saiga12_texture"
-  }
-}
