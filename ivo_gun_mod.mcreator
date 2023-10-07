@@ -780,6 +780,23 @@
           "src/main/java/icg/item/DrItem.java"
         ]
       }
+    },
+    {
+      "name": "Hmmvonek",
+      "type": "animatedentity",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hmmvonek",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ivo_gun_mod/models/item/hmmvonek_spawn_egg.json",
+          "src/main/java/icg/client/renderer/HmmvonekRenderer.java",
+          "src/main/resources/data/ivo_gun_mod/forge/biome_modifier/hmmvonek_biome_modifier.json",
+          "src/main/java/icg/entity/HmmvonekEntity.java",
+          "src/main/java/icg/entity/model/HmmvonekModel.java"
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -867,9 +884,10 @@
   "language_map": {
     "en_us": {
       "key.ivo_gun_mod.reloadakm": "reload_akm",
-      "subtitles.akm_shoot": "",
-      "subtitles.saiga12": "",
+      "entity.ivo_gun_mod.hmmvonek": "Humvve",
       "item.ivo_gun_mod.ar_15": "AR15",
+      "subtitles.saiga12": "",
+      "subtitles.akm_shoot": "",
       "subtitles.ubg_40_shoot": "",
       "item.ivo_gun_mod.b_9mm": "9mm Ammo",
       "item.ivo_gun_mod.svd": "Svd",
@@ -883,6 +901,7 @@
       "subtitles.ar15_shoot": "",
       "item.ivo_gun_mod.n_556": "5.56 Ammo",
       "item.ivo_gun_mod.ak_74gp_25": "AK74",
+      "item.ivo_gun_mod.hmmvonek_spawn_egg": "Humvve Spawn Egg",
       "item.ivo_gun_mod.rp_74": "RP74",
       "gui.ivo_gun_mod.weponary_table_ui.label_empty": "\u003e",
       "subtitles.engine_131": "Truck ride",
@@ -912,9 +931,10 @@
     },
     "uk_ua": {
       "key.ivo_gun_mod.reloadakm": "reload_akm",
-      "subtitles.akm_shoot": "",
-      "subtitles.saiga12": "",
+      "entity.ivo_gun_mod.hmmvonek": "Humvve",
       "item.ivo_gun_mod.ar_15": "АР15",
+      "subtitles.saiga12": "",
+      "subtitles.akm_shoot": "",
       "subtitles.ubg_40_shoot": "",
       "item.ivo_gun_mod.b_9mm": "9мм Набої",
       "item.ivo_gun_mod.svd": "СВД",
@@ -928,6 +948,7 @@
       "subtitles.ar15_shoot": "",
       "item.ivo_gun_mod.n_556": "Набої 5.56 ",
       "item.ivo_gun_mod.ak_74gp_25": "AK74",
+      "item.ivo_gun_mod.hmmvonek_spawn_egg": "Humvve Spawn Egg",
       "item.ivo_gun_mod.rp_74": "AK74",
       "gui.ivo_gun_mod.weponary_table_ui.label_empty": "\u003e",
       "subtitles.engine_131": "Truck ride",

@@ -1,0 +1,90 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.model.idle": {
+			"loop": true
+		},
+		"animation.model.move": {
+			"loop": true,
+			"animation_length": 0.25,
+			"bones": {
+				"main": {
+					"rotation": {
+						"vector": [0, 0, 0]
+					},
+					"position": {
+						"vector": [0, 0, 0]
+					},
+					"scale": {
+						"vector": [1, 1, 1]
+					}
+				},
+				"wheel": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.25": {
+							"vector": [90, 0, 0]
+						}
+					},
+					"position": {
+						"vector": [0, 0, 0]
+					},
+					"scale": {
+						"vector": [1, 1, 1]
+					}
+				},
+				"wheel2": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.25": {
+							"vector": [90, 0, 0]
+						}
+					},
+					"position": {
+						"vector": [0, 0, 0]
+					},
+					"scale": {
+						"vector": [1, 1, 1]
+					}
+				},
+				"wheel3": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.25": {
+							"vector": [90, 0, 0]
+						}
+					},
+					"position": {
+						"vector": [0, 0, 0]
+					},
+					"scale": {
+						"vector": [1, 1, 1]
+					}
+				},
+				"wheel4": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.25": {
+							"vector": [90, 0, 0]
+						}
+					},
+					"position": {
+						"vector": [0, 0, 0]
+					},
+					"scale": {
+						"vector": [1, 1, 1]
+					}
+				}
+			}
+		}
+	},
+	"geckolib_format_version": 2
+}

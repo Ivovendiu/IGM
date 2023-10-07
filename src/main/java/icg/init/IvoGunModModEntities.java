@@ -22,6 +22,7 @@ import icg.entity.ZilEntity;
 import icg.entity.SvdEntity;
 import icg.entity.Saiga12Entity;
 import icg.entity.Rp74Entity;
+import icg.entity.HmmvonekEntity;
 import icg.entity.Fort12Entity;
 import icg.entity.Ar15Entity;
 import icg.entity.Ak74gp25shootEntity;
@@ -61,6 +62,10 @@ public class IvoGunModModEntities {
 			EntityType.Builder.<ZilcargoEntity>of(ZilcargoEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(ZilcargoEntity::new)
 
 					.sized(3f, 3f));
+	public static final RegistryObject<EntityType<HmmvonekEntity>> HMMVONEK = register("hmmvonek",
+			EntityType.Builder.<HmmvonekEntity>of(HmmvonekEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(HmmvonekEntity::new)
+
+					.sized(0.6f, 1.8f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
@@ -72,6 +77,7 @@ public class IvoGunModModEntities {
 			ZilEntity.init();
 			ZilpustoEntity.init();
 			ZilcargoEntity.init();
+			HmmvonekEntity.init();
 		});
 	}
 
@@ -80,5 +86,6 @@ public class IvoGunModModEntities {
 		event.put(ZIL.get(), ZilEntity.createAttributes().build());
 		event.put(ZILPUSTO.get(), ZilpustoEntity.createAttributes().build());
 		event.put(ZILCARGO.get(), ZilcargoEntity.createAttributes().build());
+		event.put(HMMVONEK.get(), HmmvonekEntity.createAttributes().build());
 	}
 }
