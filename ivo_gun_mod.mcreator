@@ -869,8 +869,8 @@
   ],
   "language_map": {
     "en_us": {
-      "entity.ivo_gun_mod.hmmvonek": "Humvve",
       "key.ivo_gun_mod.reloadakm": "reload_akm",
+      "entity.ivo_gun_mod.hmmvonek": "Humvve",
       "item.ivo_gun_mod.ar_15": "AR15",
       "subtitles.saiga12": "",
       "subtitles.akm_shoot": "",
@@ -915,8 +915,8 @@
       "gui.ivo_gun_mod.weponary_table_ui.button_upgrade": "Upgrade"
     },
     "uk_ua": {
-      "entity.ivo_gun_mod.hmmvonek": "Humvve",
       "key.ivo_gun_mod.reloadakm": "reload_akm",
+      "entity.ivo_gun_mod.hmmvonek": "Humvve",
       "item.ivo_gun_mod.ar_15": "АР15",
       "subtitles.saiga12": "",
       "subtitles.akm_shoot": "",
