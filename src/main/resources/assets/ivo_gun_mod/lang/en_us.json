@@ -1,8 +1,8 @@
 {
   "key.ivo_gun_mod.reloadakm": "reload_akm",
-  "item.ivo_gun_mod.ar_15": "AR15",
-  "subtitles.saiga12": "",
   "subtitles.akm_shoot": "",
+  "subtitles.saiga12": "",
+  "item.ivo_gun_mod.ar_15": "AR15",
   "subtitles.ubg_40_shoot": "",
   "item.ivo_gun_mod.b_9mm": "9mm Ammo",
   "item.ivo_gun_mod.svd": "Svd",
